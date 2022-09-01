@@ -20,7 +20,14 @@ body {
     margin-right : 19% ;
 }
 
-div {
+.part{
+    background-image: linear-gradient(#E5E5E5, #F7F7F7) ;
+    margin-top: 0% ;
+    display: flex ;
+    flex-direction: column ;
+}
+
+div { 
     margin-bottom : 3% ;
     margin-top : 1% ;
     margin-left : 2% ;
@@ -29,6 +36,21 @@ div {
     padding-bottom : 0.30% ;
     padding-left : 2% ;
     padding-right : 2.5% ;
+}
+
+p {
+    color: #be0000 ;
+    font-weight: bold ;
+    font-size: 17px ;
+    font-family: arial,sans-serif ;
+    position : relative ;  
+}
+
+label {
+    color: #be0000 ;
+    font-family: "arial",sans-serif ;
+    font-size: 17px;
+    position : relative ;  
 }
 
 .parent {
@@ -44,19 +66,6 @@ div {
     padding : 0% ;
     align-items: left ;
     width: 300px;
-}
-
-p {
-    color: #be0000 ;
-    font-weight: bold ;
-    font-size: 15px ;
-    font-family: arial,sans-serif ;
-}
-
-label {
-    color: #be0000 ;
-    font-family: "arial",sans-serif ;
-    font-size: 15px ;
 }
 
 textarea {
@@ -79,24 +88,21 @@ input {
     accent-color: blue ;
 }
 
+.column {
+    margin-bottom: 20px;
+}
 .simple{
     color:gray ;
-    font-size: 11px ;
+    font-size: 13px ;
 }
-
-.part{
-    background-image: linear-gradient(#E5E5E5, #F7F7F7) ;
-    margin-top: 0% ;
-}
-
 
 .end {
     margin-top: 100px ;
 }
 
 .date {
-    width : 16rem ;
-    height : 2rem ;
+    width : 300px ;
+    height : 32px ;
     border-radius: 4px ;
     text-shadow: none ;
     border: 1px ;
@@ -104,8 +110,8 @@ input {
 }
 
 .text {
-    width : 16rem ;
-    height : 2rem ;
+    width : 290px ;
+    height : 30px;
     border-radius: 6px ;
     text-shadow: none ;
     border: 1px ;
