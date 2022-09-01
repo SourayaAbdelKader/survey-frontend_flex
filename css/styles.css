@@ -1,6 +1,8 @@
+/* Is this css code I used different units to try and visualize the difference between them*/
+
 .header {
-    background-color: white ;
-    margin-bottom: 0% ;
+    background-color : white ;
+    margin-bottom : 0% ;
 }
 
 h1{
@@ -21,10 +23,10 @@ body {
 }
 
 .part{
-    background-image: linear-gradient(#E5E5E5, #F7F7F7) ;
-    margin-top: 0% ;
-    display: flex ;
-    flex-direction: column ;
+    background-image : linear-gradient(#E5E5E5, #F7F7F7) ;
+    margin-top : 0% ;
+    display : flex ;
+    flex-direction : column ;
 }
 
 div { 
@@ -39,110 +41,111 @@ div {
 }
 
 p {
-    color: #be0000 ;
-    font-weight: bold ;
-    font-size: 17px ;
-    font-family: arial,sans-serif ;
+    color : #be0000 ;
+    font-weight : bold ;
+    font-size : 17px ;
+    font-family : arial,sans-serif ;
     position : relative ;  
 }
 
 label {
-    color: #be0000 ;
-    font-family: "arial",sans-serif ;
-    font-size: 17px;
+    color : #be0000 ;
+    font-family : "arial",sans-serif ;
+    font-size : 17px;
     position : relative ;  
 }
 
+/* Setting margins and padding to 0 for the other div classes*/
+
 .parent {
-    margin: 0% ;
+    margin : 0% ;
     padding : 0% ;
     display : flex ;
-    flex-wrap: wrap ;
-    justify-content: space-between;
+    flex-wrap : wrap ;
+    justify-content : space-between;
 }
 
 .children {
-    margin: 0% ;
+    margin : 0% ;
     padding : 0% ;
-    align-items: left ;
-    width: 300px;
+    align-items : left ;
+    width : 300px;
 }
 
 textarea {
-    margin-bottom: 10% ;
+    margin-bottom : 10% ;
     width : 100% ;
-    font-family:arial,sans-serif ;
-    font-size: 93.75% ;
+    font-family : arial,sans-serif ;
+    font-size : 93.75% ;
     color :#585655 ;
-    padding-top: 1% ;
-    padding-left: 1% ;
-    border-radius: 6px ; 
+    padding-top : 1% ;
+    padding-left : 1% ;
+    border-radius : 6px ; 
 }
 
 input {
-    border-radius: 40% ;
-    width: 15px ;
-    height: 15px ;
-    position: relative ;
-    top: 4px ;
-    accent-color: blue ;
+    border-radius : 40% ;
+    width : 15px ;
+    height : 15px ;
+    position : relative ;
+    top : 4px ;
+    accent-color : blue ;
 }
 
 .column {
-    margin-bottom: 20px;
+    margin-bottom : 20px;
 }
 .simple{
-    color:gray ;
-    font-size: 13px ;
+    color :gray ;
+    font-size : 13px ;
 }
 
 .end {
-    margin-top: 100px ;
+    margin-top : 100px ;
 }
 
 .date {
     width : 300px ;
     height : 32px ;
-    border-radius: 4px ;
-    text-shadow: none ;
+    border-radius : 4px ;
+    text-shadow : none ;
     border: 1px ;
-    position: relative;
+    position : relative;
 }
 
 .text {
     width : 290px ;
     height : 30px;
-    border-radius: 6px ;
-    text-shadow: none ;
-    border: 1px ;
-    flex-shrink: 3;
+    border-radius : 6px ;
+    text-shadow : none ;
+    border : 1px ;
 }
 
 /* This part is about the Submit button*/
 
 .botton {
-    position: relative ;
+    position : relative ;
     margin-bottom : 10% ; 
 }
 
 .child {
-    position: absolute ;
-    top: 50% ;
-    left: 50% ;
-    -ms-transform: translate(-50%, -50%) ;
-    transform: translate(-50%, -50%) ;
+    position : absolute ;
+    top : 50% ;
+    left : 50% ;
+    -ms-transform : translate(-50%, -50%) ;
+    transform : translate(-50%, -50%) ;
 }
 
 .submit {
-    background-image: linear-gradient(#5E5D5E, #858485) ;
-    color:white ;
-    font-family:  arial,sans-serif ;
-    font-size: 95% ;
-    font-weight: bold ;
-    height: 3rem ;
-    width: 15rem ;
-    border-radius: 6px ;
-    text-shadow: none ;
-    border-color: #5E5D5E ;
-    margin-bottom: 10% ;
+    background-image : linear-gradient(#5E5D5E, #858485) ;
+    color :white ;
+    font-family :  arial,sans-serif ;
+    font-size : 95% ;
+    font-weight : bold ;
+    height : 3rem ;
+    width : 15rem ;
+    border-radius : 6px ;
+    text-shadow : none ;
+    border-color : #5E5D5E ;
+    margin-bottom : 10% ;
 }
